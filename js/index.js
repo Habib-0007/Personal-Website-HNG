@@ -37,9 +37,5 @@ switch (today) {
 
 todayText.textContent = `${text}`;
 
-let timeInMilliseconds = () => {
-	const mainTime = Date.now();
-	utcTime.textContent = `${mainTime}`;
-};
-
-setInterval(timeInMilliseconds, 1);
+const mainTime = date.toUTCString();
+utcTime.textContent = `${mainTime}`;
