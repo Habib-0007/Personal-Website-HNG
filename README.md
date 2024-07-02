@@ -1,8 +1,8 @@
-# Personal-details-HNG-Internship-task
+# Personal Website HNG Internship task
 
-### Personal details design, an Internship task by HNGIntership
+### Personal details design, an Internship task by HNG internship
 
-This is a task by HNGInternship to create a website that displays our Slack Username and Image.
+This is a task by HNG internship to create a website that displays our Slack Username and Image.
 
 It also displays a realtime day and time.
 

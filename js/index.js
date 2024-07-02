@@ -37,5 +37,7 @@ switch (today) {
 
 todayText.textContent = `${text}`;
 
-const mainTime = date.toISOString();
-utcTime.textContent = `${mainTime}`;
+setInterval(() => {
+	var mainTime = new Date().toISOString();
+	utcTime.textContent = `${mainTime}`;
+}, 1000);
