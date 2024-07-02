@@ -37,5 +37,5 @@ switch (today) {
 
 todayText.textContent = `${text}`;
 
-const mainTime = date.toUTCString();
+const mainTime = date.toISOString();
 utcTime.textContent = `${mainTime}`;
